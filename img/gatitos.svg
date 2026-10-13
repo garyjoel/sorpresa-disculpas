@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">Dos gatitos tiernos juntos</title><desc id="desc">Ilustración de un gato atigrado sentado junto a un gato blanco, sobre un fondo lila cálido.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#eee7f0"/><stop offset="1" stop-color="#cdbed0"/></linearGradient>
+ <linearGradient id="white" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e5ed"/></linearGradient>
+ <linearGradient id="tabby" x2="1" y2="1"><stop stop-color="#c3a17b"/><stop offset="1" stop-color="#54403d"/></linearGradient>
+</defs>
+<rect width="900" height="650" fill="url(#bg)"/>
+<circle cx="700" cy="100" r="110" fill="#fff" opacity=".18"/>
+<path d="M0 520 Q230 475 440 530 T900 505 V650 H0Z" fill="#6c536b"/>
+<ellipse cx="500" cy="550" rx="330" ry="55" fill="#35263b" opacity=".18"/>
+<!-- White kitty lying down -->
+<path d="M250 455 Q190 400 220 350 Q260 302 355 352 L690 405 Q760 423 790 492 L835 550 Q840 580 800 585 L340 585 Q265 580 250 530Z" fill="url(#white)"/>
+<path d="M680 420 Q730 360 780 390 Q825 418 805 468 L775 500 Q744 462 680 460Z" fill="#fff"/>
+<path d="M758 390 L775 352 L800 400" fill="#f1b6ca"/>
+<path d="M785 400 L820 378 L813 423" fill="#f1b6ca"/>
+<path d="M776 432 Q795 445 813 430" stroke="#b4a3b2" stroke-width="7" fill="none" stroke-linecap="round"/>
+<ellipse cx="785" cy="420" rx="7" ry="10" fill="#463844"/>
+<path d="M790 445 l12 5 -10 7" fill="#d985a3"/>
+<path d="M360 520 Q345 568 330 603 Q320 621 292 614 Q275 608 290 585 L320 520" fill="#f7f5f8"/>
+<path d="M600 530 Q620 565 635 603 Q645 620 667 609 Q681 601 665 580 L642 515" fill="#f7f5f8"/>
+<!-- Tabby cat seated -->
+<path d="M185 460 Q155 390 192 300 Q220 235 280 235 Q340 245 355 320 L390 455 Q370 495 300 500 L230 495Z" fill="url(#tabby)"/>
+<path d="M216 285 L210 195 L270 235Z" fill="#51403e"/>
+<path d="M300 235 L348 190 L352 280Z" fill="#453439"/>
+<path d="M226 245 L222 220 L250 242Z M315 238 L339 215 L335 258Z" fill="#d89ca6"/>
+<ellipse cx="277" cy="270" rx="91" ry="80" fill="url(#tabby)"/>
+<path d="M205 238 Q245 265 229 310 M250 201 Q270 236 259 251 M301 199 Q291 229 307 247 M343 237 Q320 266 335 295" stroke="#3c3034" stroke-width="17" fill="none" stroke-linecap="round"/>
+<path d="M207 278 Q236 257 254 279 Q245 303 219 303Z" fill="#d9d5a2"/>
+<path d="M291 278 Q319 257 337 279 Q330 303 303 303Z" fill="#d9d5a2"/>
+<ellipse cx="236" cy="284" rx="7" ry="13" fill="#29212b"/><ellipse cx="316" cy="284" rx="7" ry="13" fill="#29212b"/>
+<path d="M257 316 Q274 300 290 316 L274 331Z" fill="#d88e9d"/>
+<path d="M274 329 Q262 345 246 335 M274 329 Q289 345 304 334" stroke="#45343a" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M205 324 Q190 360 219 380 M335 326 Q360 353 344 382" stroke="#3e3035" stroke-width="12" fill="none" stroke-linecap="round"/>
+<!-- paws -->
+<path d="M218 445 Q255 422 286 453 L323 493 Q335 516 312 522 Q293 523 278 503 L238 483Z" fill="#b99a7e"/>
+<path d="M305 450 Q330 432 352 454 L385 484 Q397 503 376 512 Q358 516 343 495 L310 482Z" fill="#c9ab8c"/>
+<path d="M0 625 Q300 605 550 630 T900 620 V650 H0Z" fill="#24162b" opacity=".2"/>
+</svg>

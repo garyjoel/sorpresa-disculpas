@@ -1,1 +1,1 @@
-
+Coloca aquí una imagen distinta para cada etapa usando estos nombres:\ninicio.jpg, segura.jpg, poquito.jpg, corazon-roto.jpg, oportunidad.jpg, intentarlo.jpg.\nLa imagen final.png viene incluida (un chico saltando de felicidad); puedes reemplazarla.\nAl pulsar Sí, se muestran fuegos artificiales animados con JavaScript.\n
