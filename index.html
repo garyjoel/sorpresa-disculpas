@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#260b2c">
+  <title>Una pregunta para ti 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene">
+    <div class="glow glow-one" aria-hidden="true"></div>
+    <div class="glow glow-two" aria-hidden="true"></div>
+    <div class="floating-hearts" aria-hidden="true"><span>♡</span><span>♥</span><span>✦</span><span>♡</span><span>♥</span></div>
+
+    <section class="card" id="main-card" aria-live="polite">
+      <!-- CAMBIA LA IMAGEN: coloca tu archivo en img/disculpas.jpg y deja esta ruta -->
+      <div class="photo-frame">
+        <img id="main-image" src="img/inicio.jpg" alt="Imagen para la pregunta inicial" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="image-placeholder" aria-label="Espacio reservado para tu imagen">
+          <span class="placeholder-icon">♡</span>
+          <strong>Tu imagen va aquí</strong>
+          <small id="placeholder-hint">Guarda la imagen como <code>img/inicio.jpg</code></small>
+        </div>
+      </div>
+
+      <p class="eyebrow">UNA PREGUNTITA PARA TI</p>
+      <h1 id="question">¿Podríamos no estar así… piénsalo? 🥺</h1>
+      <p id="subtext" class="subtext">Un “sí” y lo arreglamos ✨</p>
+
+      <div class="actions">
+        <button id="yes-btn" class="btn yes" type="button">Sí</button>
+        <button id="no-btn" class="btn no" type="button">No</button>
+      </div>
+      <p class="tiny">Con cariño ♡</p>
+    </section>
+  </main>
+
+  <section id="success" class="success hidden" role="dialog" aria-modal="true" aria-labelledby="success-title">
+    <canvas id="fireworks-canvas" aria-hidden="true"></canvas>
+    <div class="success-card">
+      <!-- IMAGEN DE LA PANTALLA FINAL: img/final.jpg -->
+      <div class="final-image-frame">
+        <img src="img/final.png" alt="Ilustración alegre de una persona saltando de felicidad" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="image-placeholder final-placeholder">
+          <span class="placeholder-icon">💗</span>
+          <strong>Tu imagen final va aquí</strong>
+          <small>Opcional: img/final.jpg</small>
+        </div>
+      </div>
+      <div class="big-heart" aria-hidden="true">💖</div>
+      <h2 id="success-title">¡Sabía que dirías que sí!</h2>
+      <p>¡Me alegra que podamos hablarlo! Dejemos atrás el mal rato y empecemos de nuevo, sin presiones. 😊✨</p>
+      <button id="restart-btn" class="btn yes restart" type="button">Muchas gracias!!!😊</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
